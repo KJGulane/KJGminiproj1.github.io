@@ -1,5 +1,5 @@
 body {
-    background: url(./images/bckgrnd.jpg);
+    background: url(/images/bckgrnd.jpg);
     width: 100%;
     height: 100%;
     background-attachment: fixed;
