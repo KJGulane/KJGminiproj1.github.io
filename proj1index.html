@@ -6,32 +6,34 @@
     <title>MINI PROJECT ONE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="proj1style.css">
-    <link rel="stylesheet" href="scss/style.scss">
   
-  </head>
+  </head> 
   <body>
+
 <!--navbar here-->
     <section class="section1 sticky-top">
       
-         <nav class="navbar navbar-expand-lg " style="background-color: white ">
+         <nav class="navbar navbar-expand-lg " style="background-color: #8C52FF;">
           <div class="container-fluid">
-            <img class="logo" src="./images/kevinslogo.png" alt="logo" style="width: 115px; border-radius: 25%; ;">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="logo" src="./images/kevinslogo2.png" alt="logo" style="width: 220px; border-radius: 10%; display: float left;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#About us">About us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#Flavors">Flavors</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#customerrvs">Customer Reviews</a>
                 </li>
               </ul>
             </div>
@@ -42,144 +44,196 @@
 
     <!--advertisement-->
 
-      <div id="carouselExampleDark" class="carousel carousel-dark slide h-80 mx-auto p-2">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./images/icecream1.webp" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="./images/icecream2.webp" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="./images/icecream3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/banner1.webp" class="d-block w-100" alt="..." style="height: 540px;">
+          <div class="carousel-caption" style="font-size: xx-large;">
+            <h1>Made with Passion</h1>
+            <p></p>
           </div>
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="./images/banner2.png" class="d-block w-100" alt="..." style="height: 540px";>
+          <div class="carousel-caption" style="font-size: xx-large;">
+            <h2>Perfect for Birthdays and Special Occassions</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner3.png" class="d-block w-100" alt="..." style="height: 540px;">
+          <div class="carousel-caption" style="font-size: xx-large;">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
 
-      <!-- infos-->
 
-      <section class="section2" >
-        <header id="Flavors" style="font-size: xx-large; text-align: center;">FLAVORS</header>
+    </Container>
+      <!--about-->
+      <container>
+          <div class="card mb-3 mx-auto m-5" style="max-width: 800px;" id="About us">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/aboutus.png" class="img-fluid rounded-start p-3" alt="aboutus">
+              </div>
+              <div class="col-md-8 p-3">
+                <div class="card-body">
+                  <h5 class="card-title">Sorbetes</h5>
+                  <p class="card-text">is a popular Filipino ice cream flavored with ingredients such as mango, chocolate, cheese, coconut, and purple yam (ube). Traditionally, it is produced from carabao milk and served in tiny scoops on sugar cones. Some Filipinos like to consume it sandwiched between bread buns, like a hamburger.</p>
+                  <div>
+                    <a class="btn btn-primary" href="./pages/about.html" role="button">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </container>
+
+      <!-- flavors-->
+
+      <section class="section2" style="background-color: transparent;" >
+        
 
       <div class="row row-cols-2 row-cols-md-3 g-4 mar mx-auto p-4">
 
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/mango-ice-cream.jpg" class="card-img-top" alt="manggo">
-      <div class="card-body">
-        <h5 class="card-title">"MANGO"</h5>
-        <p class="card-text">Mango ice-cream is a delicious frozen treat. The mango flavor is subtle, and the texture is smooth and creamy.</p>
+        <div class="col">
+          <div class="card h-auto">
+          <img src="./images/FALVORS.png" class="flavor" alt="flvrheader" id="Flavors">
+        </div>
       </div>
-      <div class="card-footer">
-        <button type="button" class="btn btn-primary">Order Now</button>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="./images/mango-ice-cream.jpg" class="card-img-top" alt="manggo">
+              <div class="card-body">
+                <h5 class="card-title">"MANGO"</h5>
+                <p class="card-text">Mango ice-cream is a delicious frozen treat. The mango flavor is subtle, and the texture is smooth and creamy.</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="./images/ube.jpg" class="card-img-top" alt="ube">
+              <div class="card-body">
+                <h5 class="card-title">"UBE"</h5>
+                <p class="card-text">Is a purple yam from the Philippines with a mild, sweet flavor. The taste has been described as slightly nutty, or as a cross between vanilla and pistachio. It is frequently incorporated into desserts in Filipino cuisine with ube ice cream being one of the most popular preparations</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="./images/fruitsalad.jpg" class="card-img-top" alt="fruitsalad">
+              <div class="card-body">
+                <h5 class="card-title">FRUIT SALAD</h5>
+                <p class="card-text">This flavor Composed of canned fruit cocktail and mixed with ice-cream, enjoy some fruitfull flavors.</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+        <!--3rd section-->
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/mangoube.jpg" class="card-img-top" alt="mangoube">
+            <div class="card-body">
+              <h5 class="card-title">"UBE-MANGO"</h5>
+              <p class="card-text">Ube-Mango is a combination flavor of Ube and Mango, Contains peanut, cheese, mango bits, Coconut milk and skim milk, enjoy a mouth watering flavor.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/cookiencream.webp" class="card-img-top" alt="cookiencream">
+            <div class="card-body">
+              <h5 class="card-title">"COOKIES & CREAM"</h5>
+              <p class="card-text">This Flavor Contains Oreo cookies mixed with the ice-cream, surely your kids will love it.</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/buko-pandan.jpg" class="card-img-top" alt="buko-pandan">
+            <div class="card-body">
+              <h5 class="card-title">BUKO PANDAN</h5>
+              <p class="card-text">Pandan is a tropical plant that has long dark green leaves similar to palm trees. It is commonly used in South East Asian cuisines as both a flavoring and food color. What does pandan taste like? Pandan has been described to have grassy vanilla with a hint of coconut flavor.</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Order Now</button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+
+      </section>
+<!--customer reviews-->
+
+    <section class="section2" style="background-color: transparent;" id="customerrvs">
+        
+
+        <div class="row row-cols-2 row-cols-md-3 g-4 mar mx-auto p-3">
+
+          <div class="col h-75">
+            <div class="card">
+            <img src="./images/customer.png" class="flavor" alt="flvrheader" id="Flavors">
+          </div>
+        </div>
+
+            <div class="col">
+              <div class="card h-75">
+                <img src="./images/review1.jpg" class="card-img-top p-2" alt="review" style="height: 250px;">
+                <div class="review-text" style="text-align: center;">
+                <h3>Delicious & Mouth Watering</h3>
+                <p>Two boys eating their ice-cream</p>
+              </div>
+              </div>
+            </div>
 
 
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/ube.jpg" class="card-img-top" alt="ube">
-      <div class="card-body">
-        <h5 class="card-title">"UBE"</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <button type="button" class="btn btn-primary">Order Now</button>
-      </div>
-    </div>
-  </div>
+            <div class="col">
+              <div class="card h-75">
+                <img src="./images/review2.jpg" class="card-img-top" alt="review" style="height: 250px;">
+                <h3 class="review-text" style="text-align: center;">Craving Satisfied</h3>
+              </div>
+            </div>
+            
 
-
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/fruitsalad.jpg" class="card-img-top" alt="fruitsalad">
-      <div class="card-body">
-        <h5 class="card-title">FRUIT SALAD</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <button type="button" class="btn btn-primary">Order Now</button>
-      </div>
-    </div>
-  </div>
-
-<!--3rd section-->
-
-<div class="col">
-  <div class="card h-100">
-    <img src="./images/mangoube.jpg" class="card-img-top" alt="mangoube">
-    <div class="card-body">
-      <h5 class="card-title">"MANGO-UBE"</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-primary">Order Now</button>
-    </div>
-  </div>
-</div>
-
-
-<div class="col">
-  <div class="card h-100">
-    <img src="./images/cookiencream.webp" class="card-img-top" alt="cookiencream">
-    <div class="card-body">
-      <h5 class="card-title">"COOKIES & CREAM"</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-primary">Order Now</button>
-    </div>
-  </div>
-</div>
-
-
-<div class="col">
-  <div class="card h-100">
-    <img src="./images/buko-pandan.jpg" class="card-img-top" alt="buko-pandan">
-    <div class="card-body">
-      <h5 class="card-title">BUKO PANDAN</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-primary">Order Now</button>
-    </div>
-  </div>
-</div>
-
-
-</div>
-
-</section>
+    </section>
 
 
 
@@ -187,14 +241,37 @@
 
     <!--footer-->
 
-    <footer class="text p-3 text-center" id="contact">
+    <footer class="text p-5 text-center" id="contact">
 
       <div class="row align-items-center">
-        <!-- Use Breakpoints so that we can have 3 columns -->
+
+        
+        <div class="col-md-3 text-center">
+          <h1>Contact Details</h1>
+
+          <p> 
+            
+            Email Address: 
+            <a href="mailto:knivez013@gmail.com" class="contact-link">knivez013@gmail.com</a>
+
+          </p>
+
+          <p>
+            Mobile Number:
+            <a href="tel:+63906578232" class="contact-link">+63906578232</a>
+          </p>
+
+          <p>Address: Mandaue City, Cebu Phillipines 6014</p>
+
+      </div>
+    
+
+        
+
         <div class="col-md-4">
           <h1>Connect with us</h1>
           <p>
-            <a href="https/www.facebook.com/">
+            <a href="https://www.facebook.com/ilovemokz/">
               <img src="./images/facebook.png" alt="fb" height="60px">
             </a>
             <a href="https/www.gmail.com/">
@@ -204,7 +281,8 @@
 
         </div>
 
-        <div class="col-md-3">
+
+        <div class="col-md-5">
           <h1>Subscribe</h1>
           <form class="mt-2">
             <div class="mb-3">
@@ -215,32 +293,12 @@
 
         </div>
 
-        <div class="col-md-5 text-center">
-            <h1>Contact Details</h1>
-
-            <p> 
-              
-              Email Address: 
-              <a href="mailto:knivez013@gmail.com" class="contact-link">knivez013@gmail.com</a>
-
-            </p>
-
-            <p>
-              Mobile Number:
-              <a href="tel:+63906578232" class="contact-link">+63906578232</a>
-            </p>
-
-            <p>Address: Mandaue City, Cebu Phillipines 6014</p>
-  
-
-        </div>
-
       </div>
 
         <!-- Copyright starts here. When using copyright symbol press Alt Key then type 0169 -->
 
         <p class="mt-5">
-          © Kevin Johnson Gulane -2023
+          © SORBETES.PH -2023
         </p>
 
 
